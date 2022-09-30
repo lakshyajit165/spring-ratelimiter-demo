@@ -6,7 +6,7 @@ import io.github.bucket4j.Refill;
 import java.time.Duration;
 
 public enum RateLimitModel {
-    DEFAULT(4),
+    DEFAULT(40),
 
     USER1_DEV(100),
 
